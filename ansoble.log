@@ -1,0 +1,1714 @@
+2026-10-15 13:49:36,982 p=3122 u=rnbass99 n=ansible WARNING| [WARNING]: Deprecation warnings can be disabled by setting `deprecation_warnings=False` in ansible.cfg.
+
+2026-10-15 13:49:36,983 p=3122 u=rnbass99 n=ansible INFO| [DEPRECATION WARNING]: Importing 'to_text' from 'ansible.module_utils._text' is deprecated. This feature will be removed from ansible-core version 2.24. Use ansible.module_utils.common.text.converters instead.
+
+2026-10-15 13:49:38,638 p=3122 u=rnbass99 n=ansible INFO| [DEPRECATION WARNING]: Importing 'to_native' from 'ansible.module_utils._text' is deprecated. This feature will be removed from ansible-core version 2.24. Use ansible.module_utils.common.text.converters instead.
+
+2026-10-15 13:49:38,892 p=3122 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:49:40,992 p=3122 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:49:43,394 p=3122 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:49:43,919 p=3122 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:49:44,294 p=3122 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:49:44,699 p=3122 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:49:45,065 p=3122 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:49:46,080 p=3122 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:49:47,158 p=3122 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:49:48,396 p=3122 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:49:49,607 p=3122 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:49:50,674 p=3122 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:49:52,460 p=3122 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:49:53,814 p=3122 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:49:54,259 p=3122 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:49:54,881 p=3122 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:49:55,566 p=3122 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:49:56,369 p=3122 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:49:59,357 p=3122 u=rnbass99 n=ansible WARNING| [WARNING]: Found variable using reserved name 'tags'.
+Origin: <unknown>
+
+tags
+
+
+2026-10-15 13:49:59,368 p=3122 u=rnbass99 n=ansible INFO| {
+    "_meta": {
+        "hostvars": {
+            "ec2-3-8-141-80.eu-west-2.compute.amazonaws.com": {
+                "ami_launch_index": 0,
+                "architecture": {
+                    "__ansible_unsafe": "x86_64"
+                },
+                "block_device_mappings": [
+                    {
+                        "device_name": {
+                            "__ansible_unsafe": "/dev/xvda"
+                        },
+                        "ebs": {
+                            "attach_time": "2026-10-15T12:00:17+00:00",
+                            "delete_on_termination": true,
+                            "status": {
+                                "__ansible_unsafe": "attached"
+                            },
+                            "volume_id": {
+                                "__ansible_unsafe": "vol-0b3687a9272e12a6a"
+                            }
+                        }
+                    }
+                ],
+                "boot_mode": {
+                    "__ansible_unsafe": "uefi-preferred"
+                },
+                "capacity_reservation_specification": {
+                    "capacity_reservation_preference": {
+                        "__ansible_unsafe": "open"
+                    }
+                },
+                "client_token": {
+                    "__ansible_unsafe": "terraform-20261015120015305900000001"
+                },
+                "cpu_options": {
+                    "core_count": 1,
+                    "threads_per_core": 2
+                },
+                "current_instance_boot_mode": {
+                    "__ansible_unsafe": "uefi"
+                },
+                "ebs_optimized": false,
+                "ena_support": true,
+                "enclave_options": {
+                    "enabled": false
+                },
+                "hibernation_options": {
+                    "configured": false
+                },
+                "hypervisor": {
+                    "__ansible_unsafe": "xen"
+                },
+                "image_id": {
+                    "__ansible_unsafe": "ami-07524133e69bdba59"
+                },
+                "instance_id": {
+                    "__ansible_unsafe": "i-0ff9b9c9ecda10956"
+                },
+                "instance_type": {
+                    "__ansible_unsafe": "t3.micro"
+                },
+                "key_name": {
+                    "__ansible_unsafe": "pairing"
+                },
+                "launch_time": "2026-10-15T12:00:15+00:00",
+                "maintenance_options": {
+                    "auto_recovery": {
+                        "__ansible_unsafe": "default"
+                    },
+                    "reboot_migration": {
+                        "__ansible_unsafe": "default"
+                    }
+                },
+                "metadata_options": {
+                    "http_endpoint": {
+                        "__ansible_unsafe": "enabled"
+                    },
+                    "http_protocol_ipv6": {
+                        "__ansible_unsafe": "disabled"
+                    },
+                    "http_put_response_hop_limit": 2,
+                    "http_tokens": {
+                        "__ansible_unsafe": "required"
+                    },
+                    "instance_metadata_tags": {
+                        "__ansible_unsafe": "disabled"
+                    },
+                    "state": {
+                        "__ansible_unsafe": "applied"
+                    }
+                },
+                "monitoring": {
+                    "state": {
+                        "__ansible_unsafe": "disabled"
+                    }
+                },
+                "network_interfaces": [
+                    {
+                        "association": {
+                            "ip_owner_id": {
+                                "__ansible_unsafe": "amazon"
+                            },
+                            "public_dns_name": {
+                                "__ansible_unsafe": "ec2-3-8-141-80.eu-west-2.compute.amazonaws.com"
+                            },
+                            "public_ip": {
+                                "__ansible_unsafe": "3.8.141.80"
+                            }
+                        },
+                        "attachment": {
+                            "attach_time": "2026-10-15T12:00:15+00:00",
+                            "attachment_id": {
+                                "__ansible_unsafe": "eni-attach-0a5bcc6af547c962c"
+                            },
+                            "delete_on_termination": true,
+                            "device_index": 0,
+                            "network_card_index": 0,
+                            "status": {
+                                "__ansible_unsafe": "attached"
+                            }
+                        },
+                        "description": {
+                            "__ansible_unsafe": ""
+                        },
+                        "groups": [
+                            {
+                                "group_id": {
+                                    "__ansible_unsafe": "sg-0e44ee1987e710d47"
+                                },
+                                "group_name": {
+                                    "__ansible_unsafe": "basset-ec2-sg"
+                                }
+                            }
+                        ],
+                        "interface_type": {
+                            "__ansible_unsafe": "interface"
+                        },
+                        "ipv6_addresses": [],
+                        "mac_address": {
+                            "__ansible_unsafe": "06:ff:c4:0a:d7:75"
+                        },
+                        "network_interface_id": {
+                            "__ansible_unsafe": "eni-0371ef5b794a05678"
+                        },
+                        "operator": {
+                            "managed": false
+                        },
+                        "owner_id": {
+                            "__ansible_unsafe": "579730595534"
+                        },
+                        "private_dns_name": {
+                            "__ansible_unsafe": "ip-172-31-19-107.eu-west-2.compute.internal"
+                        },
+                        "private_ip_address": {
+                            "__ansible_unsafe": "172.31.19.107"
+                        },
+                        "private_ip_addresses": [
+                            {
+                                "association": {
+                                    "ip_owner_id": {
+                                        "__ansible_unsafe": "amazon"
+                                    },
+                                    "public_dns_name": {
+                                        "__ansible_unsafe": "ec2-3-8-141-80.eu-west-2.compute.amazonaws.com"
+                                    },
+                                    "public_ip": {
+                                        "__ansible_unsafe": "3.8.141.80"
+                                    }
+                                },
+                                "primary": true,
+                                "private_dns_name": {
+                                    "__ansible_unsafe": "ip-172-31-19-107.eu-west-2.compute.internal"
+                                },
+                                "private_ip_address": {
+                                    "__ansible_unsafe": "172.31.19.107"
+                                }
+                            }
+                        ],
+                        "source_dest_check": true,
+                        "status": {
+                            "__ansible_unsafe": "in-use"
+                        },
+                        "subnet_id": {
+                            "__ansible_unsafe": "subnet-0bac2570b997172b7"
+                        },
+                        "vpc_id": {
+                            "__ansible_unsafe": "vpc-0e00f24a7f3ad70c6"
+                        }
+                    }
+                ],
+                "network_performance_options": {
+                    "bandwidth_weighting": {
+                        "__ansible_unsafe": "default"
+                    }
+                },
+                "operator": {
+                    "managed": false
+                },
+                "owner_id": {
+                    "__ansible_unsafe": "579730595534"
+                },
+                "placement": {
+                    "availability_zone": {
+                        "__ansible_unsafe": "eu-west-2a"
+                    },
+                    "availability_zone_id": {
+                        "__ansible_unsafe": "euw2-az2"
+                    },
+                    "group_name": {
+                        "__ansible_unsafe": ""
+                    },
+                    "region": {
+                        "__ansible_unsafe": "eu-west-2"
+                    },
+                    "tenancy": {
+                        "__ansible_unsafe": "default"
+                    }
+                },
+                "platform_details": {
+                    "__ansible_unsafe": "Linux/UNIX"
+                },
+                "private_dns_name": {
+                    "__ansible_unsafe": "ip-172-31-19-107.eu-west-2.compute.internal"
+                },
+                "private_dns_name_options": {
+                    "enable_resource_name_dns_a_record": false,
+                    "enable_resource_name_dns_aaaa_record": false,
+                    "hostname_type": {
+                        "__ansible_unsafe": "ip-name"
+                    }
+                },
+                "private_ip_address": {
+                    "__ansible_unsafe": "172.31.19.107"
+                },
+                "product_codes": [],
+                "public_dns_name": {
+                    "__ansible_unsafe": "ec2-3-8-141-80.eu-west-2.compute.amazonaws.com"
+                },
+                "public_ip_address": {
+                    "__ansible_unsafe": "3.8.141.80"
+                },
+                "requester_id": {
+                    "__ansible_unsafe": ""
+                },
+                "reservation_id": {
+                    "__ansible_unsafe": "r-0d60257d6f706d7f9"
+                },
+                "root_device_name": {
+                    "__ansible_unsafe": "/dev/xvda"
+                },
+                "root_device_type": {
+                    "__ansible_unsafe": "ebs"
+                },
+                "security_groups": [
+                    {
+                        "group_id": {
+                            "__ansible_unsafe": "sg-0e44ee1987e710d47"
+                        },
+                        "group_name": {
+                            "__ansible_unsafe": "basset-ec2-sg"
+                        }
+                    }
+                ],
+                "source_dest_check": true,
+                "state": {
+                    "code": 16,
+                    "name": {
+                        "__ansible_unsafe": "running"
+                    }
+                },
+                "state_transition_reason": {
+                    "__ansible_unsafe": ""
+                },
+                "subnet_id": {
+                    "__ansible_unsafe": "subnet-0bac2570b997172b7"
+                },
+                "tags": {
+                    "Name": {
+                        "__ansible_unsafe": "basset-app-dev"
+                    }
+                },
+                "usage_operation": {
+                    "__ansible_unsafe": "RunInstances"
+                },
+                "usage_operation_update_time": "2026-10-15T12:00:15+00:00",
+                "virtualization_type": {
+                    "__ansible_unsafe": "hvm"
+                },
+                "vpc_id": {
+                    "__ansible_unsafe": "vpc-0e00f24a7f3ad70c6"
+                }
+            }
+        },
+        "profile": "inventory_legacy"
+    },
+    "all": {
+        "children": [
+            "ungrouped",
+            "aws_ec2",
+            "webserver"
+        ]
+    },
+    "aws_ec2": {
+        "hosts": [
+            "ec2-3-8-141-80.eu-west-2.compute.amazonaws.com"
+        ]
+    },
+    "webserver": {
+        "hosts": [
+            "ec2-3-8-141-80.eu-west-2.compute.amazonaws.com"
+        ]
+    }
+}
+2026-10-15 13:51:44,991 p=3204 u=rnbass99 n=ansible WARNING| [WARNING]: Deprecation warnings can be disabled by setting `deprecation_warnings=False` in ansible.cfg.
+
+2026-10-15 13:51:44,992 p=3204 u=rnbass99 n=ansible INFO| [DEPRECATION WARNING]: Importing 'to_text' from 'ansible.module_utils._text' is deprecated. This feature will be removed from ansible-core version 2.24. Use ansible.module_utils.common.text.converters instead.
+
+2026-10-15 13:51:46,284 p=3204 u=rnbass99 n=ansible INFO| [DEPRECATION WARNING]: Importing 'to_native' from 'ansible.module_utils._text' is deprecated. This feature will be removed from ansible-core version 2.24. Use ansible.module_utils.common.text.converters instead.
+
+2026-10-15 13:51:46,448 p=3204 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:51:48,437 p=3204 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:51:50,079 p=3204 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:51:50,514 p=3204 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:51:50,995 p=3204 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:51:51,396 p=3204 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:51:51,948 p=3204 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:51:53,033 p=3204 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:51:54,448 p=3204 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:51:55,649 p=3204 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:51:56,400 p=3204 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:51:57,484 p=3204 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:51:58,572 p=3204 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:51:59,680 p=3204 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:52:00,048 p=3204 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:52:00,608 p=3204 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:52:01,200 p=3204 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:52:01,923 p=3204 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:52:02,792 p=3204 u=rnbass99 n=ansible INFO| @all:
+  |--@ungrouped:
+  |--@aws_ec2:
+  |  |--ec2-3-8-141-80.eu-west-2.compute.amazonaws.com
+  |--@webserver:
+  |  |--ec2-3-8-141-80.eu-west-2.compute.amazonaws.com
+2026-10-15 13:52:35,407 p=3320 u=rnbass99 n=ansible WARNING| [WARNING]: Deprecation warnings can be disabled by setting `deprecation_warnings=False` in ansible.cfg.
+
+2026-10-15 13:52:35,409 p=3320 u=rnbass99 n=ansible INFO| [DEPRECATION WARNING]: Importing 'to_text' from 'ansible.module_utils._text' is deprecated. This feature will be removed from ansible-core version 2.24. Use ansible.module_utils.common.text.converters instead.
+
+2026-10-15 13:52:35,600 p=3320 u=rnbass99 n=ansible INFO| [DEPRECATION WARNING]: Importing 'to_native' from 'ansible.module_utils._text' is deprecated. This feature will be removed from ansible-core version 2.24. Use ansible.module_utils.common.text.converters instead.
+
+2026-10-15 13:52:35,666 p=3320 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:52:36,326 p=3320 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:52:38,056 p=3320 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:52:39,225 p=3320 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:52:40,280 p=3320 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:52:40,678 p=3320 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:52:41,011 p=3320 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:52:41,988 p=3320 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:52:43,013 p=3320 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:52:43,999 p=3320 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:52:45,925 p=3320 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:52:46,945 p=3320 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:52:49,491 p=3320 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:52:50,718 p=3320 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:52:51,059 p=3320 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:52:51,643 p=3320 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:52:52,273 p=3320 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:52:53,000 p=3320 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:52:55,015 p=3320 u=rnbass99 n=ansible WARNING| [WARNING]: Found variable using reserved name 'tags'.
+Origin: <unknown>
+
+tags
+
+
+2026-10-15 13:52:57,691 p=3320 u=rnbass99 n=ansible ERROR| [ERROR]: Task failed: Failed to connect to the host via ssh: ssh_askpass: exec(/usr/bin/ssh-askpass): No such file or directory
+Host key verification failed.
+Origin: <adhoc 'ping' task>
+
+{'action': 'ping', 'args': {}, 'timeout': 0, 'async_val': 0, 'poll': 15}
+
+
+2026-10-15 13:52:57,693 p=3320 u=rnbass99 n=ansible INFO| ec2-3-8-141-80.eu-west-2.compute.amazonaws.com | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Task failed: Failed to connect to the host via ssh: ssh_askpass: exec(/usr/bin/ssh-askpass): No such file or directory\r\nHost key verification failed.",
+    "unreachable": true
+}
+2026-10-15 13:58:44,576 p=3426 u=rnbass99 n=ansible WARNING| [WARNING]: Deprecation warnings can be disabled by setting `deprecation_warnings=False` in ansible.cfg.
+
+2026-10-15 13:58:44,576 p=3426 u=rnbass99 n=ansible INFO| [DEPRECATION WARNING]: Importing 'to_text' from 'ansible.module_utils._text' is deprecated. This feature will be removed from ansible-core version 2.24. Use ansible.module_utils.common.text.converters instead.
+
+2026-10-15 13:58:44,744 p=3426 u=rnbass99 n=ansible INFO| [DEPRECATION WARNING]: Importing 'to_native' from 'ansible.module_utils._text' is deprecated. This feature will be removed from ansible-core version 2.24. Use ansible.module_utils.common.text.converters instead.
+
+2026-10-15 13:58:44,805 p=3426 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:58:46,229 p=3426 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:58:48,131 p=3426 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:58:48,561 p=3426 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:58:48,930 p=3426 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:58:49,297 p=3426 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:58:49,649 p=3426 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:58:50,673 p=3426 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:58:51,744 p=3426 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:58:52,778 p=3426 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:58:53,463 p=3426 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:58:54,694 p=3426 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:58:56,120 p=3426 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:58:57,267 p=3426 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:58:58,171 p=3426 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:58:58,993 p=3426 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:58:59,874 p=3426 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:59:00,626 p=3426 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:59:01,465 p=3426 u=rnbass99 n=ansible WARNING| [WARNING]: Found variable using reserved name 'tags'.
+Origin: <unknown>
+
+tags
+
+
+2026-10-15 13:59:01,469 p=3426 u=rnbass99 n=ansible INFO| {
+    "_meta": {
+        "hostvars": {
+            "ec2-3-8-141-80.eu-west-2.compute.amazonaws.com": {
+                "ami_launch_index": 0,
+                "architecture": {
+                    "__ansible_unsafe": "x86_64"
+                },
+                "block_device_mappings": [
+                    {
+                        "device_name": {
+                            "__ansible_unsafe": "/dev/xvda"
+                        },
+                        "ebs": {
+                            "attach_time": "2026-10-15T12:00:17+00:00",
+                            "delete_on_termination": true,
+                            "status": {
+                                "__ansible_unsafe": "attached"
+                            },
+                            "volume_id": {
+                                "__ansible_unsafe": "vol-0b3687a9272e12a6a"
+                            }
+                        }
+                    }
+                ],
+                "boot_mode": {
+                    "__ansible_unsafe": "uefi-preferred"
+                },
+                "capacity_reservation_specification": {
+                    "capacity_reservation_preference": {
+                        "__ansible_unsafe": "open"
+                    }
+                },
+                "client_token": {
+                    "__ansible_unsafe": "terraform-20261015120015305900000001"
+                },
+                "cpu_options": {
+                    "core_count": 1,
+                    "threads_per_core": 2
+                },
+                "current_instance_boot_mode": {
+                    "__ansible_unsafe": "uefi"
+                },
+                "ebs_optimized": false,
+                "ena_support": true,
+                "enclave_options": {
+                    "enabled": false
+                },
+                "hibernation_options": {
+                    "configured": false
+                },
+                "hypervisor": {
+                    "__ansible_unsafe": "xen"
+                },
+                "image_id": {
+                    "__ansible_unsafe": "ami-07524133e69bdba59"
+                },
+                "instance_id": {
+                    "__ansible_unsafe": "i-0ff9b9c9ecda10956"
+                },
+                "instance_type": {
+                    "__ansible_unsafe": "t3.micro"
+                },
+                "key_name": {
+                    "__ansible_unsafe": "pairing"
+                },
+                "launch_time": "2026-10-15T12:00:15+00:00",
+                "maintenance_options": {
+                    "auto_recovery": {
+                        "__ansible_unsafe": "default"
+                    },
+                    "reboot_migration": {
+                        "__ansible_unsafe": "default"
+                    }
+                },
+                "metadata_options": {
+                    "http_endpoint": {
+                        "__ansible_unsafe": "enabled"
+                    },
+                    "http_protocol_ipv6": {
+                        "__ansible_unsafe": "disabled"
+                    },
+                    "http_put_response_hop_limit": 2,
+                    "http_tokens": {
+                        "__ansible_unsafe": "required"
+                    },
+                    "instance_metadata_tags": {
+                        "__ansible_unsafe": "disabled"
+                    },
+                    "state": {
+                        "__ansible_unsafe": "applied"
+                    }
+                },
+                "monitoring": {
+                    "state": {
+                        "__ansible_unsafe": "disabled"
+                    }
+                },
+                "network_interfaces": [
+                    {
+                        "association": {
+                            "ip_owner_id": {
+                                "__ansible_unsafe": "amazon"
+                            },
+                            "public_dns_name": {
+                                "__ansible_unsafe": "ec2-3-8-141-80.eu-west-2.compute.amazonaws.com"
+                            },
+                            "public_ip": {
+                                "__ansible_unsafe": "3.8.141.80"
+                            }
+                        },
+                        "attachment": {
+                            "attach_time": "2026-10-15T12:00:15+00:00",
+                            "attachment_id": {
+                                "__ansible_unsafe": "eni-attach-0a5bcc6af547c962c"
+                            },
+                            "delete_on_termination": true,
+                            "device_index": 0,
+                            "network_card_index": 0,
+                            "status": {
+                                "__ansible_unsafe": "attached"
+                            }
+                        },
+                        "description": {
+                            "__ansible_unsafe": ""
+                        },
+                        "groups": [
+                            {
+                                "group_id": {
+                                    "__ansible_unsafe": "sg-0e44ee1987e710d47"
+                                },
+                                "group_name": {
+                                    "__ansible_unsafe": "basset-ec2-sg"
+                                }
+                            }
+                        ],
+                        "interface_type": {
+                            "__ansible_unsafe": "interface"
+                        },
+                        "ipv6_addresses": [],
+                        "mac_address": {
+                            "__ansible_unsafe": "06:ff:c4:0a:d7:75"
+                        },
+                        "network_interface_id": {
+                            "__ansible_unsafe": "eni-0371ef5b794a05678"
+                        },
+                        "operator": {
+                            "managed": false
+                        },
+                        "owner_id": {
+                            "__ansible_unsafe": "579730595534"
+                        },
+                        "private_dns_name": {
+                            "__ansible_unsafe": "ip-172-31-19-107.eu-west-2.compute.internal"
+                        },
+                        "private_ip_address": {
+                            "__ansible_unsafe": "172.31.19.107"
+                        },
+                        "private_ip_addresses": [
+                            {
+                                "association": {
+                                    "ip_owner_id": {
+                                        "__ansible_unsafe": "amazon"
+                                    },
+                                    "public_dns_name": {
+                                        "__ansible_unsafe": "ec2-3-8-141-80.eu-west-2.compute.amazonaws.com"
+                                    },
+                                    "public_ip": {
+                                        "__ansible_unsafe": "3.8.141.80"
+                                    }
+                                },
+                                "primary": true,
+                                "private_dns_name": {
+                                    "__ansible_unsafe": "ip-172-31-19-107.eu-west-2.compute.internal"
+                                },
+                                "private_ip_address": {
+                                    "__ansible_unsafe": "172.31.19.107"
+                                }
+                            }
+                        ],
+                        "source_dest_check": true,
+                        "status": {
+                            "__ansible_unsafe": "in-use"
+                        },
+                        "subnet_id": {
+                            "__ansible_unsafe": "subnet-0bac2570b997172b7"
+                        },
+                        "vpc_id": {
+                            "__ansible_unsafe": "vpc-0e00f24a7f3ad70c6"
+                        }
+                    }
+                ],
+                "network_performance_options": {
+                    "bandwidth_weighting": {
+                        "__ansible_unsafe": "default"
+                    }
+                },
+                "operator": {
+                    "managed": false
+                },
+                "owner_id": {
+                    "__ansible_unsafe": "579730595534"
+                },
+                "placement": {
+                    "availability_zone": {
+                        "__ansible_unsafe": "eu-west-2a"
+                    },
+                    "availability_zone_id": {
+                        "__ansible_unsafe": "euw2-az2"
+                    },
+                    "group_name": {
+                        "__ansible_unsafe": ""
+                    },
+                    "region": {
+                        "__ansible_unsafe": "eu-west-2"
+                    },
+                    "tenancy": {
+                        "__ansible_unsafe": "default"
+                    }
+                },
+                "platform_details": {
+                    "__ansible_unsafe": "Linux/UNIX"
+                },
+                "private_dns_name": {
+                    "__ansible_unsafe": "ip-172-31-19-107.eu-west-2.compute.internal"
+                },
+                "private_dns_name_options": {
+                    "enable_resource_name_dns_a_record": false,
+                    "enable_resource_name_dns_aaaa_record": false,
+                    "hostname_type": {
+                        "__ansible_unsafe": "ip-name"
+                    }
+                },
+                "private_ip_address": {
+                    "__ansible_unsafe": "172.31.19.107"
+                },
+                "product_codes": [],
+                "public_dns_name": {
+                    "__ansible_unsafe": "ec2-3-8-141-80.eu-west-2.compute.amazonaws.com"
+                },
+                "public_ip_address": {
+                    "__ansible_unsafe": "3.8.141.80"
+                },
+                "requester_id": {
+                    "__ansible_unsafe": ""
+                },
+                "reservation_id": {
+                    "__ansible_unsafe": "r-0d60257d6f706d7f9"
+                },
+                "root_device_name": {
+                    "__ansible_unsafe": "/dev/xvda"
+                },
+                "root_device_type": {
+                    "__ansible_unsafe": "ebs"
+                },
+                "security_groups": [
+                    {
+                        "group_id": {
+                            "__ansible_unsafe": "sg-0e44ee1987e710d47"
+                        },
+                        "group_name": {
+                            "__ansible_unsafe": "basset-ec2-sg"
+                        }
+                    }
+                ],
+                "source_dest_check": true,
+                "state": {
+                    "code": 16,
+                    "name": {
+                        "__ansible_unsafe": "running"
+                    }
+                },
+                "state_transition_reason": {
+                    "__ansible_unsafe": ""
+                },
+                "subnet_id": {
+                    "__ansible_unsafe": "subnet-0bac2570b997172b7"
+                },
+                "tags": {
+                    "Name": {
+                        "__ansible_unsafe": "basset-app-dev"
+                    }
+                },
+                "usage_operation": {
+                    "__ansible_unsafe": "RunInstances"
+                },
+                "usage_operation_update_time": "2026-10-15T12:00:15+00:00",
+                "virtualization_type": {
+                    "__ansible_unsafe": "hvm"
+                },
+                "vpc_id": {
+                    "__ansible_unsafe": "vpc-0e00f24a7f3ad70c6"
+                }
+            }
+        },
+        "profile": "inventory_legacy"
+    },
+    "all": {
+        "children": [
+            "ungrouped",
+            "aws_ec2",
+            "webserver"
+        ]
+    },
+    "aws_ec2": {
+        "hosts": [
+            "ec2-3-8-141-80.eu-west-2.compute.amazonaws.com"
+        ]
+    },
+    "webserver": {
+        "hosts": [
+            "ec2-3-8-141-80.eu-west-2.compute.amazonaws.com"
+        ]
+    }
+}
+2026-10-15 13:59:25,046 p=3485 u=rnbass99 n=ansible WARNING| [WARNING]: Deprecation warnings can be disabled by setting `deprecation_warnings=False` in ansible.cfg.
+
+2026-10-15 13:59:25,047 p=3485 u=rnbass99 n=ansible INFO| [DEPRECATION WARNING]: Importing 'to_text' from 'ansible.module_utils._text' is deprecated. This feature will be removed from ansible-core version 2.24. Use ansible.module_utils.common.text.converters instead.
+
+2026-10-15 13:59:25,219 p=3485 u=rnbass99 n=ansible INFO| [DEPRECATION WARNING]: Importing 'to_native' from 'ansible.module_utils._text' is deprecated. This feature will be removed from ansible-core version 2.24. Use ansible.module_utils.common.text.converters instead.
+
+2026-10-15 13:59:25,282 p=3485 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:59:26,209 p=3485 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:59:27,636 p=3485 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:59:29,650 p=3485 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:59:29,955 p=3485 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:59:30,286 p=3485 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:59:30,635 p=3485 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:59:31,737 p=3485 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:59:32,776 p=3485 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:59:33,987 p=3485 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:59:34,930 p=3485 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:59:36,168 p=3485 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:59:37,189 p=3485 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:59:38,751 p=3485 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:59:39,781 p=3485 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:59:40,393 p=3485 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:59:41,020 p=3485 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:59:41,757 p=3485 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:59:42,518 p=3485 u=rnbass99 n=ansible INFO| @all:
+  |--@ungrouped:
+  |--@aws_ec2:
+  |  |--ec2-3-8-141-80.eu-west-2.compute.amazonaws.com
+  |--@webserver:
+  |  |--ec2-3-8-141-80.eu-west-2.compute.amazonaws.com
+2026-10-15 13:59:49,878 p=3554 u=rnbass99 n=ansible WARNING| [WARNING]: Deprecation warnings can be disabled by setting `deprecation_warnings=False` in ansible.cfg.
+
+2026-10-15 13:59:49,879 p=3554 u=rnbass99 n=ansible INFO| [DEPRECATION WARNING]: Importing 'to_text' from 'ansible.module_utils._text' is deprecated. This feature will be removed from ansible-core version 2.24. Use ansible.module_utils.common.text.converters instead.
+
+2026-10-15 13:59:50,108 p=3554 u=rnbass99 n=ansible INFO| [DEPRECATION WARNING]: Importing 'to_native' from 'ansible.module_utils._text' is deprecated. This feature will be removed from ansible-core version 2.24. Use ansible.module_utils.common.text.converters instead.
+
+2026-10-15 13:59:50,180 p=3554 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:59:51,631 p=3554 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:59:53,744 p=3554 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:59:55,316 p=3554 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:59:55,963 p=3554 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:59:57,866 p=3554 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:59:58,243 p=3554 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 13:59:59,282 p=3554 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:00:00,344 p=3554 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:00:01,353 p=3554 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:00:02,209 p=3554 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:00:03,878 p=3554 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:00:04,956 p=3554 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:00:06,105 p=3554 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:00:07,768 p=3554 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:00:08,378 p=3554 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:00:09,015 p=3554 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:00:09,752 p=3554 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:00:10,595 p=3554 u=rnbass99 n=ansible WARNING| [WARNING]: Found variable using reserved name 'tags'.
+Origin: <unknown>
+
+tags
+
+
+2026-10-15 14:00:10,853 p=3554 u=rnbass99 n=ansible ERROR| [ERROR]: Task failed: Failed to connect to the host via ssh: ssh_askpass: exec(/usr/bin/ssh-askpass): No such file or directory
+Host key verification failed.
+Origin: <adhoc 'ping' task>
+
+{'action': 'ping', 'args': {}, 'timeout': 0, 'async_val': 0, 'poll': 15}
+
+
+2026-10-15 14:00:10,855 p=3554 u=rnbass99 n=ansible INFO| ec2-3-8-141-80.eu-west-2.compute.amazonaws.com | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Task failed: Failed to connect to the host via ssh: ssh_askpass: exec(/usr/bin/ssh-askpass): No such file or directory\r\nHost key verification failed.",
+    "unreachable": true
+}
+2026-10-15 14:10:56,139 p=3957 u=rnbass99 n=ansible WARNING| [WARNING]: Deprecation warnings can be disabled by setting `deprecation_warnings=False` in ansible.cfg.
+
+2026-10-15 14:10:56,188 p=3957 u=rnbass99 n=ansible INFO| [DEPRECATION WARNING]: Importing 'to_text' from 'ansible.module_utils._text' is deprecated. This feature will be removed from ansible-core version 2.24. Use ansible.module_utils.common.text.converters instead.
+
+2026-10-15 14:10:57,497 p=3957 u=rnbass99 n=ansible INFO| [DEPRECATION WARNING]: Importing 'to_native' from 'ansible.module_utils._text' is deprecated. This feature will be removed from ansible-core version 2.24. Use ansible.module_utils.common.text.converters instead.
+
+2026-10-15 14:10:57,689 p=3957 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:11:02,769 p=3957 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:11:05,235 p=3957 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:11:07,425 p=3957 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:11:08,513 p=3957 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:11:10,331 p=3957 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:11:10,695 p=3957 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:11:11,699 p=3957 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:11:12,776 p=3957 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:11:13,822 p=3957 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:11:15,306 p=3957 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:11:16,561 p=3957 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:11:17,603 p=3957 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:11:19,174 p=3957 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:11:20,249 p=3957 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:11:20,851 p=3957 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:11:21,497 p=3957 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:11:22,270 p=3957 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:11:23,513 p=3957 u=rnbass99 n=ansible WARNING| [WARNING]: Found variable using reserved name 'tags'.
+Origin: <unknown>
+
+tags
+
+
+2026-10-15 14:11:23,519 p=3957 u=rnbass99 n=ansible INFO| {
+    "_meta": {
+        "hostvars": {
+            "ec2-3-8-141-80.eu-west-2.compute.amazonaws.com": {
+                "ami_launch_index": 0,
+                "architecture": {
+                    "__ansible_unsafe": "x86_64"
+                },
+                "block_device_mappings": [
+                    {
+                        "device_name": {
+                            "__ansible_unsafe": "/dev/xvda"
+                        },
+                        "ebs": {
+                            "attach_time": "2026-10-15T12:00:17+00:00",
+                            "delete_on_termination": true,
+                            "status": {
+                                "__ansible_unsafe": "attached"
+                            },
+                            "volume_id": {
+                                "__ansible_unsafe": "vol-0b3687a9272e12a6a"
+                            }
+                        }
+                    }
+                ],
+                "boot_mode": {
+                    "__ansible_unsafe": "uefi-preferred"
+                },
+                "capacity_reservation_specification": {
+                    "capacity_reservation_preference": {
+                        "__ansible_unsafe": "open"
+                    }
+                },
+                "client_token": {
+                    "__ansible_unsafe": "terraform-20261015120015305900000001"
+                },
+                "cpu_options": {
+                    "core_count": 1,
+                    "threads_per_core": 2
+                },
+                "current_instance_boot_mode": {
+                    "__ansible_unsafe": "uefi"
+                },
+                "ebs_optimized": false,
+                "ena_support": true,
+                "enclave_options": {
+                    "enabled": false
+                },
+                "hibernation_options": {
+                    "configured": false
+                },
+                "hypervisor": {
+                    "__ansible_unsafe": "xen"
+                },
+                "image_id": {
+                    "__ansible_unsafe": "ami-07524133e69bdba59"
+                },
+                "instance_id": {
+                    "__ansible_unsafe": "i-0ff9b9c9ecda10956"
+                },
+                "instance_type": {
+                    "__ansible_unsafe": "t3.micro"
+                },
+                "key_name": {
+                    "__ansible_unsafe": "pairing"
+                },
+                "launch_time": "2026-10-15T12:00:15+00:00",
+                "maintenance_options": {
+                    "auto_recovery": {
+                        "__ansible_unsafe": "default"
+                    },
+                    "reboot_migration": {
+                        "__ansible_unsafe": "default"
+                    }
+                },
+                "metadata_options": {
+                    "http_endpoint": {
+                        "__ansible_unsafe": "enabled"
+                    },
+                    "http_protocol_ipv6": {
+                        "__ansible_unsafe": "disabled"
+                    },
+                    "http_put_response_hop_limit": 2,
+                    "http_tokens": {
+                        "__ansible_unsafe": "required"
+                    },
+                    "instance_metadata_tags": {
+                        "__ansible_unsafe": "disabled"
+                    },
+                    "state": {
+                        "__ansible_unsafe": "applied"
+                    }
+                },
+                "monitoring": {
+                    "state": {
+                        "__ansible_unsafe": "disabled"
+                    }
+                },
+                "network_interfaces": [
+                    {
+                        "association": {
+                            "ip_owner_id": {
+                                "__ansible_unsafe": "amazon"
+                            },
+                            "public_dns_name": {
+                                "__ansible_unsafe": "ec2-3-8-141-80.eu-west-2.compute.amazonaws.com"
+                            },
+                            "public_ip": {
+                                "__ansible_unsafe": "3.8.141.80"
+                            }
+                        },
+                        "attachment": {
+                            "attach_time": "2026-10-15T12:00:15+00:00",
+                            "attachment_id": {
+                                "__ansible_unsafe": "eni-attach-0a5bcc6af547c962c"
+                            },
+                            "delete_on_termination": true,
+                            "device_index": 0,
+                            "network_card_index": 0,
+                            "status": {
+                                "__ansible_unsafe": "attached"
+                            }
+                        },
+                        "description": {
+                            "__ansible_unsafe": ""
+                        },
+                        "groups": [
+                            {
+                                "group_id": {
+                                    "__ansible_unsafe": "sg-0e44ee1987e710d47"
+                                },
+                                "group_name": {
+                                    "__ansible_unsafe": "basset-ec2-sg"
+                                }
+                            }
+                        ],
+                        "interface_type": {
+                            "__ansible_unsafe": "interface"
+                        },
+                        "ipv6_addresses": [],
+                        "mac_address": {
+                            "__ansible_unsafe": "06:ff:c4:0a:d7:75"
+                        },
+                        "network_interface_id": {
+                            "__ansible_unsafe": "eni-0371ef5b794a05678"
+                        },
+                        "operator": {
+                            "managed": false
+                        },
+                        "owner_id": {
+                            "__ansible_unsafe": "579730595534"
+                        },
+                        "private_dns_name": {
+                            "__ansible_unsafe": "ip-172-31-19-107.eu-west-2.compute.internal"
+                        },
+                        "private_ip_address": {
+                            "__ansible_unsafe": "172.31.19.107"
+                        },
+                        "private_ip_addresses": [
+                            {
+                                "association": {
+                                    "ip_owner_id": {
+                                        "__ansible_unsafe": "amazon"
+                                    },
+                                    "public_dns_name": {
+                                        "__ansible_unsafe": "ec2-3-8-141-80.eu-west-2.compute.amazonaws.com"
+                                    },
+                                    "public_ip": {
+                                        "__ansible_unsafe": "3.8.141.80"
+                                    }
+                                },
+                                "primary": true,
+                                "private_dns_name": {
+                                    "__ansible_unsafe": "ip-172-31-19-107.eu-west-2.compute.internal"
+                                },
+                                "private_ip_address": {
+                                    "__ansible_unsafe": "172.31.19.107"
+                                }
+                            }
+                        ],
+                        "source_dest_check": true,
+                        "status": {
+                            "__ansible_unsafe": "in-use"
+                        },
+                        "subnet_id": {
+                            "__ansible_unsafe": "subnet-0bac2570b997172b7"
+                        },
+                        "vpc_id": {
+                            "__ansible_unsafe": "vpc-0e00f24a7f3ad70c6"
+                        }
+                    }
+                ],
+                "network_performance_options": {
+                    "bandwidth_weighting": {
+                        "__ansible_unsafe": "default"
+                    }
+                },
+                "operator": {
+                    "managed": false
+                },
+                "owner_id": {
+                    "__ansible_unsafe": "579730595534"
+                },
+                "placement": {
+                    "availability_zone": {
+                        "__ansible_unsafe": "eu-west-2a"
+                    },
+                    "availability_zone_id": {
+                        "__ansible_unsafe": "euw2-az2"
+                    },
+                    "group_name": {
+                        "__ansible_unsafe": ""
+                    },
+                    "region": {
+                        "__ansible_unsafe": "eu-west-2"
+                    },
+                    "tenancy": {
+                        "__ansible_unsafe": "default"
+                    }
+                },
+                "platform_details": {
+                    "__ansible_unsafe": "Linux/UNIX"
+                },
+                "private_dns_name": {
+                    "__ansible_unsafe": "ip-172-31-19-107.eu-west-2.compute.internal"
+                },
+                "private_dns_name_options": {
+                    "enable_resource_name_dns_a_record": false,
+                    "enable_resource_name_dns_aaaa_record": false,
+                    "hostname_type": {
+                        "__ansible_unsafe": "ip-name"
+                    }
+                },
+                "private_ip_address": {
+                    "__ansible_unsafe": "172.31.19.107"
+                },
+                "product_codes": [],
+                "public_dns_name": {
+                    "__ansible_unsafe": "ec2-3-8-141-80.eu-west-2.compute.amazonaws.com"
+                },
+                "public_ip_address": {
+                    "__ansible_unsafe": "3.8.141.80"
+                },
+                "requester_id": {
+                    "__ansible_unsafe": ""
+                },
+                "reservation_id": {
+                    "__ansible_unsafe": "r-0d60257d6f706d7f9"
+                },
+                "root_device_name": {
+                    "__ansible_unsafe": "/dev/xvda"
+                },
+                "root_device_type": {
+                    "__ansible_unsafe": "ebs"
+                },
+                "security_groups": [
+                    {
+                        "group_id": {
+                            "__ansible_unsafe": "sg-0e44ee1987e710d47"
+                        },
+                        "group_name": {
+                            "__ansible_unsafe": "basset-ec2-sg"
+                        }
+                    }
+                ],
+                "source_dest_check": true,
+                "state": {
+                    "code": 16,
+                    "name": {
+                        "__ansible_unsafe": "running"
+                    }
+                },
+                "state_transition_reason": {
+                    "__ansible_unsafe": ""
+                },
+                "subnet_id": {
+                    "__ansible_unsafe": "subnet-0bac2570b997172b7"
+                },
+                "tags": {
+                    "Name": {
+                        "__ansible_unsafe": "basset-app-dev"
+                    }
+                },
+                "usage_operation": {
+                    "__ansible_unsafe": "RunInstances"
+                },
+                "usage_operation_update_time": "2026-10-15T12:00:15+00:00",
+                "virtualization_type": {
+                    "__ansible_unsafe": "hvm"
+                },
+                "vpc_id": {
+                    "__ansible_unsafe": "vpc-0e00f24a7f3ad70c6"
+                }
+            }
+        },
+        "profile": "inventory_legacy"
+    },
+    "all": {
+        "children": [
+            "ungrouped",
+            "aws_ec2",
+            "webserver"
+        ]
+    },
+    "aws_ec2": {
+        "hosts": [
+            "ec2-3-8-141-80.eu-west-2.compute.amazonaws.com"
+        ]
+    },
+    "webserver": {
+        "hosts": [
+            "ec2-3-8-141-80.eu-west-2.compute.amazonaws.com"
+        ]
+    }
+}
+2026-10-15 14:13:58,271 p=4038 u=rnbass99 n=ansible WARNING| [WARNING]: Deprecation warnings can be disabled by setting `deprecation_warnings=False` in ansible.cfg.
+
+2026-10-15 14:13:58,295 p=4038 u=rnbass99 n=ansible INFO| [DEPRECATION WARNING]: Importing 'to_text' from 'ansible.module_utils._text' is deprecated. This feature will be removed from ansible-core version 2.24. Use ansible.module_utils.common.text.converters instead.
+
+2026-10-15 14:13:59,533 p=4038 u=rnbass99 n=ansible INFO| [DEPRECATION WARNING]: Importing 'to_native' from 'ansible.module_utils._text' is deprecated. This feature will be removed from ansible-core version 2.24. Use ansible.module_utils.common.text.converters instead.
+
+2026-10-15 14:13:59,757 p=4038 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:14:04,638 p=4038 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:14:06,819 p=4038 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:14:08,717 p=4038 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:14:09,046 p=4038 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:14:09,434 p=4038 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:14:09,793 p=4038 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:14:10,823 p=4038 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:14:11,906 p=4038 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:14:13,136 p=4038 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:14:14,081 p=4038 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:14:15,243 p=4038 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:14:16,276 p=4038 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:14:18,448 p=4038 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:14:19,780 p=4038 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:14:21,630 p=4038 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:14:22,889 p=4038 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:14:23,650 p=4038 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:14:24,577 p=4038 u=rnbass99 n=ansible WARNING| [WARNING]: Found variable using reserved name 'tags'.
+Origin: <unknown>
+
+tags
+
+
+2026-10-15 14:14:24,586 p=4038 u=rnbass99 n=ansible INFO| {
+    "_meta": {
+        "hostvars": {
+            "ec2-3-8-141-80.eu-west-2.compute.amazonaws.com": {
+                "ami_launch_index": 0,
+                "architecture": {
+                    "__ansible_unsafe": "x86_64"
+                },
+                "block_device_mappings": [
+                    {
+                        "device_name": {
+                            "__ansible_unsafe": "/dev/xvda"
+                        },
+                        "ebs": {
+                            "attach_time": "2026-10-15T12:00:17+00:00",
+                            "delete_on_termination": true,
+                            "status": {
+                                "__ansible_unsafe": "attached"
+                            },
+                            "volume_id": {
+                                "__ansible_unsafe": "vol-0b3687a9272e12a6a"
+                            }
+                        }
+                    }
+                ],
+                "boot_mode": {
+                    "__ansible_unsafe": "uefi-preferred"
+                },
+                "capacity_reservation_specification": {
+                    "capacity_reservation_preference": {
+                        "__ansible_unsafe": "open"
+                    }
+                },
+                "client_token": {
+                    "__ansible_unsafe": "terraform-20261015120015305900000001"
+                },
+                "cpu_options": {
+                    "core_count": 1,
+                    "threads_per_core": 2
+                },
+                "current_instance_boot_mode": {
+                    "__ansible_unsafe": "uefi"
+                },
+                "ebs_optimized": false,
+                "ena_support": true,
+                "enclave_options": {
+                    "enabled": false
+                },
+                "hibernation_options": {
+                    "configured": false
+                },
+                "hypervisor": {
+                    "__ansible_unsafe": "xen"
+                },
+                "image_id": {
+                    "__ansible_unsafe": "ami-07524133e69bdba59"
+                },
+                "instance_id": {
+                    "__ansible_unsafe": "i-0ff9b9c9ecda10956"
+                },
+                "instance_type": {
+                    "__ansible_unsafe": "t3.micro"
+                },
+                "key_name": {
+                    "__ansible_unsafe": "pairing"
+                },
+                "launch_time": "2026-10-15T12:00:15+00:00",
+                "maintenance_options": {
+                    "auto_recovery": {
+                        "__ansible_unsafe": "default"
+                    },
+                    "reboot_migration": {
+                        "__ansible_unsafe": "default"
+                    }
+                },
+                "metadata_options": {
+                    "http_endpoint": {
+                        "__ansible_unsafe": "enabled"
+                    },
+                    "http_protocol_ipv6": {
+                        "__ansible_unsafe": "disabled"
+                    },
+                    "http_put_response_hop_limit": 2,
+                    "http_tokens": {
+                        "__ansible_unsafe": "required"
+                    },
+                    "instance_metadata_tags": {
+                        "__ansible_unsafe": "disabled"
+                    },
+                    "state": {
+                        "__ansible_unsafe": "applied"
+                    }
+                },
+                "monitoring": {
+                    "state": {
+                        "__ansible_unsafe": "disabled"
+                    }
+                },
+                "network_interfaces": [
+                    {
+                        "association": {
+                            "ip_owner_id": {
+                                "__ansible_unsafe": "amazon"
+                            },
+                            "public_dns_name": {
+                                "__ansible_unsafe": "ec2-3-8-141-80.eu-west-2.compute.amazonaws.com"
+                            },
+                            "public_ip": {
+                                "__ansible_unsafe": "3.8.141.80"
+                            }
+                        },
+                        "attachment": {
+                            "attach_time": "2026-10-15T12:00:15+00:00",
+                            "attachment_id": {
+                                "__ansible_unsafe": "eni-attach-0a5bcc6af547c962c"
+                            },
+                            "delete_on_termination": true,
+                            "device_index": 0,
+                            "network_card_index": 0,
+                            "status": {
+                                "__ansible_unsafe": "attached"
+                            }
+                        },
+                        "description": {
+                            "__ansible_unsafe": ""
+                        },
+                        "groups": [
+                            {
+                                "group_id": {
+                                    "__ansible_unsafe": "sg-0e44ee1987e710d47"
+                                },
+                                "group_name": {
+                                    "__ansible_unsafe": "basset-ec2-sg"
+                                }
+                            }
+                        ],
+                        "interface_type": {
+                            "__ansible_unsafe": "interface"
+                        },
+                        "ipv6_addresses": [],
+                        "mac_address": {
+                            "__ansible_unsafe": "06:ff:c4:0a:d7:75"
+                        },
+                        "network_interface_id": {
+                            "__ansible_unsafe": "eni-0371ef5b794a05678"
+                        },
+                        "operator": {
+                            "managed": false
+                        },
+                        "owner_id": {
+                            "__ansible_unsafe": "579730595534"
+                        },
+                        "private_dns_name": {
+                            "__ansible_unsafe": "ip-172-31-19-107.eu-west-2.compute.internal"
+                        },
+                        "private_ip_address": {
+                            "__ansible_unsafe": "172.31.19.107"
+                        },
+                        "private_ip_addresses": [
+                            {
+                                "association": {
+                                    "ip_owner_id": {
+                                        "__ansible_unsafe": "amazon"
+                                    },
+                                    "public_dns_name": {
+                                        "__ansible_unsafe": "ec2-3-8-141-80.eu-west-2.compute.amazonaws.com"
+                                    },
+                                    "public_ip": {
+                                        "__ansible_unsafe": "3.8.141.80"
+                                    }
+                                },
+                                "primary": true,
+                                "private_dns_name": {
+                                    "__ansible_unsafe": "ip-172-31-19-107.eu-west-2.compute.internal"
+                                },
+                                "private_ip_address": {
+                                    "__ansible_unsafe": "172.31.19.107"
+                                }
+                            }
+                        ],
+                        "source_dest_check": true,
+                        "status": {
+                            "__ansible_unsafe": "in-use"
+                        },
+                        "subnet_id": {
+                            "__ansible_unsafe": "subnet-0bac2570b997172b7"
+                        },
+                        "vpc_id": {
+                            "__ansible_unsafe": "vpc-0e00f24a7f3ad70c6"
+                        }
+                    }
+                ],
+                "network_performance_options": {
+                    "bandwidth_weighting": {
+                        "__ansible_unsafe": "default"
+                    }
+                },
+                "operator": {
+                    "managed": false
+                },
+                "owner_id": {
+                    "__ansible_unsafe": "579730595534"
+                },
+                "placement": {
+                    "availability_zone": {
+                        "__ansible_unsafe": "eu-west-2a"
+                    },
+                    "availability_zone_id": {
+                        "__ansible_unsafe": "euw2-az2"
+                    },
+                    "group_name": {
+                        "__ansible_unsafe": ""
+                    },
+                    "region": {
+                        "__ansible_unsafe": "eu-west-2"
+                    },
+                    "tenancy": {
+                        "__ansible_unsafe": "default"
+                    }
+                },
+                "platform_details": {
+                    "__ansible_unsafe": "Linux/UNIX"
+                },
+                "private_dns_name": {
+                    "__ansible_unsafe": "ip-172-31-19-107.eu-west-2.compute.internal"
+                },
+                "private_dns_name_options": {
+                    "enable_resource_name_dns_a_record": false,
+                    "enable_resource_name_dns_aaaa_record": false,
+                    "hostname_type": {
+                        "__ansible_unsafe": "ip-name"
+                    }
+                },
+                "private_ip_address": {
+                    "__ansible_unsafe": "172.31.19.107"
+                },
+                "product_codes": [],
+                "public_dns_name": {
+                    "__ansible_unsafe": "ec2-3-8-141-80.eu-west-2.compute.amazonaws.com"
+                },
+                "public_ip_address": {
+                    "__ansible_unsafe": "3.8.141.80"
+                },
+                "requester_id": {
+                    "__ansible_unsafe": ""
+                },
+                "reservation_id": {
+                    "__ansible_unsafe": "r-0d60257d6f706d7f9"
+                },
+                "root_device_name": {
+                    "__ansible_unsafe": "/dev/xvda"
+                },
+                "root_device_type": {
+                    "__ansible_unsafe": "ebs"
+                },
+                "security_groups": [
+                    {
+                        "group_id": {
+                            "__ansible_unsafe": "sg-0e44ee1987e710d47"
+                        },
+                        "group_name": {
+                            "__ansible_unsafe": "basset-ec2-sg"
+                        }
+                    }
+                ],
+                "source_dest_check": true,
+                "state": {
+                    "code": 16,
+                    "name": {
+                        "__ansible_unsafe": "running"
+                    }
+                },
+                "state_transition_reason": {
+                    "__ansible_unsafe": ""
+                },
+                "subnet_id": {
+                    "__ansible_unsafe": "subnet-0bac2570b997172b7"
+                },
+                "tags": {
+                    "Name": {
+                        "__ansible_unsafe": "basset-app-dev"
+                    }
+                },
+                "usage_operation": {
+                    "__ansible_unsafe": "RunInstances"
+                },
+                "usage_operation_update_time": "2026-10-15T12:00:15+00:00",
+                "virtualization_type": {
+                    "__ansible_unsafe": "hvm"
+                },
+                "vpc_id": {
+                    "__ansible_unsafe": "vpc-0e00f24a7f3ad70c6"
+                }
+            }
+        },
+        "profile": "inventory_legacy"
+    },
+    "all": {
+        "children": [
+            "ungrouped",
+            "aws_ec2",
+            "webserver"
+        ]
+    },
+    "aws_ec2": {
+        "hosts": [
+            "ec2-3-8-141-80.eu-west-2.compute.amazonaws.com"
+        ]
+    },
+    "webserver": {
+        "hosts": [
+            "ec2-3-8-141-80.eu-west-2.compute.amazonaws.com"
+        ]
+    }
+}
+2026-10-15 14:15:51,572 p=4138 u=rnbass99 n=ansible WARNING| [WARNING]: Deprecation warnings can be disabled by setting `deprecation_warnings=False` in ansible.cfg.
+
+2026-10-15 14:15:51,572 p=4138 u=rnbass99 n=ansible INFO| [DEPRECATION WARNING]: Importing 'to_text' from 'ansible.module_utils._text' is deprecated. This feature will be removed from ansible-core version 2.24. Use ansible.module_utils.common.text.converters instead.
+
+2026-10-15 14:15:51,734 p=4138 u=rnbass99 n=ansible INFO| [DEPRECATION WARNING]: Importing 'to_native' from 'ansible.module_utils._text' is deprecated. This feature will be removed from ansible-core version 2.24. Use ansible.module_utils.common.text.converters instead.
+
+2026-10-15 14:15:51,794 p=4138 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:15:52,659 p=4138 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:15:55,731 p=4138 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:15:57,370 p=4138 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:15:59,139 p=4138 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:15:59,445 p=4138 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:15:59,817 p=4138 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:16:00,834 p=4138 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:16:01,899 p=4138 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:16:02,927 p=4138 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:16:05,104 p=4138 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:16:06,065 p=4138 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:16:07,608 p=4138 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:16:09,398 p=4138 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:16:09,756 p=4138 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:16:10,345 p=4138 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:16:10,989 p=4138 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:16:11,706 p=4138 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:16:14,036 p=4138 u=rnbass99 n=ansible WARNING| [WARNING]: Found variable using reserved name 'tags'.
+Origin: <unknown>
+
+tags
+
+
+2026-10-15 14:16:29,919 p=4138 u=rnbass99 n=ansible WARNING| [WARNING]: Host 'ec2-3-8-141-80.eu-west-2.compute.amazonaws.com' is using the discovered Python interpreter at '/usr/bin/python3.9', but future installation of another Python interpreter could cause a different interpreter to be discovered. See https://docs.ansible.com/ansible-core/2.20/reference_appendices/interpreter_discovery.html for more information.
+
+2026-10-15 14:16:29,922 p=4138 u=rnbass99 n=ansible INFO| ec2-3-8-141-80.eu-west-2.compute.amazonaws.com | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3.9"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2026-10-15 14:18:43,762 p=4294 u=rnbass99 n=ansible WARNING| [WARNING]: Deprecation warnings can be disabled by setting `deprecation_warnings=False` in ansible.cfg.
+
+2026-10-15 14:18:43,763 p=4294 u=rnbass99 n=ansible INFO| [DEPRECATION WARNING]: Importing 'to_text' from 'ansible.module_utils._text' is deprecated. This feature will be removed from ansible-core version 2.24. Use ansible.module_utils.common.text.converters instead.
+
+2026-10-15 14:18:43,925 p=4294 u=rnbass99 n=ansible INFO| [DEPRECATION WARNING]: Importing 'to_native' from 'ansible.module_utils._text' is deprecated. This feature will be removed from ansible-core version 2.24. Use ansible.module_utils.common.text.converters instead.
+
+2026-10-15 14:18:43,986 p=4294 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:18:45,419 p=4294 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:18:47,458 p=4294 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:18:47,946 p=4294 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:18:48,285 p=4294 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:18:48,642 p=4294 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:18:48,987 p=4294 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:18:49,993 p=4294 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:18:51,045 p=4294 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:18:52,489 p=4294 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:18:53,708 p=4294 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:18:54,675 p=4294 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:18:55,701 p=4294 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:18:57,796 p=4294 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:18:58,422 p=4294 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:18:59,162 p=4294 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:18:59,791 p=4294 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:19:00,551 p=4294 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:19:01,401 p=4294 u=rnbass99 n=ansible WARNING| [WARNING]: Found variable using reserved name 'tags'.
+Origin: <unknown>
+
+tags
+
+
+2026-10-15 14:19:03,731 p=4294 u=rnbass99 n=ansible WARNING| [WARNING]: Host 'ec2-3-8-141-80.eu-west-2.compute.amazonaws.com' is using the discovered Python interpreter at '/usr/bin/python3.9', but future installation of another Python interpreter could cause a different interpreter to be discovered. See https://docs.ansible.com/ansible-core/2.20/reference_appendices/interpreter_discovery.html for more information.
+
+2026-10-15 14:19:03,735 p=4294 u=rnbass99 n=ansible INFO| ec2-3-8-141-80.eu-west-2.compute.amazonaws.com | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3.9"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2026-10-15 14:21:51,352 p=4374 u=rnbass99 n=ansible WARNING| [WARNING]: Deprecation warnings can be disabled by setting `deprecation_warnings=False` in ansible.cfg.
+
+2026-10-15 14:21:51,353 p=4374 u=rnbass99 n=ansible INFO| [DEPRECATION WARNING]: Importing 'to_text' from 'ansible.module_utils._text' is deprecated. This feature will be removed from ansible-core version 2.24. Use ansible.module_utils.common.text.converters instead.
+
+2026-10-15 14:21:51,533 p=4374 u=rnbass99 n=ansible INFO| [DEPRECATION WARNING]: Importing 'to_native' from 'ansible.module_utils._text' is deprecated. This feature will be removed from ansible-core version 2.24. Use ansible.module_utils.common.text.converters instead.
+
+2026-10-15 14:21:51,601 p=4374 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:21:52,694 p=4374 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:21:54,241 p=4374 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:21:55,588 p=4374 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:21:56,478 p=4374 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:21:56,883 p=4374 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:21:57,260 p=4374 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:21:58,267 p=4374 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:21:59,334 p=4374 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:22:00,349 p=4374 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:22:02,403 p=4374 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:22:04,417 p=4374 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:22:06,400 p=4374 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:22:07,520 p=4374 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:22:07,938 p=4374 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:22:08,578 p=4374 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:22:09,202 p=4374 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:22:09,921 p=4374 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:22:14,513 p=4374 u=rnbass99 n=ansible ERROR| [ERROR]: YAML parsing failed: Colons in unquoted values must be followed by a non-space character.
+Origin: /home/rnbass99/basset-project/basset-ansible/playbook.yml:18:10
+
+16       command: touch /var/www/html/index.html
+17
+18     -name: deploy application
+            ^ column 10
+
+
+For example:
+
+    raw: echo 'name: ansible'
+
+Should be:
+
+    raw: "echo 'name: ansible'"
+
+
+2026-10-15 14:23:20,811 p=4481 u=rnbass99 n=ansible WARNING| [WARNING]: Deprecation warnings can be disabled by setting `deprecation_warnings=False` in ansible.cfg.
+
+2026-10-15 14:23:20,811 p=4481 u=rnbass99 n=ansible INFO| [DEPRECATION WARNING]: Importing 'to_text' from 'ansible.module_utils._text' is deprecated. This feature will be removed from ansible-core version 2.24. Use ansible.module_utils.common.text.converters instead.
+
+2026-10-15 14:23:21,058 p=4481 u=rnbass99 n=ansible INFO| [DEPRECATION WARNING]: Importing 'to_native' from 'ansible.module_utils._text' is deprecated. This feature will be removed from ansible-core version 2.24. Use ansible.module_utils.common.text.converters instead.
+
+2026-10-15 14:23:21,129 p=4481 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:23:22,089 p=4481 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:23:23,219 p=4481 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:23:23,602 p=4481 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:23:23,953 p=4481 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:23:24,414 p=4481 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:23:24,857 p=4481 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:23:25,873 p=4481 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:23:26,933 p=4481 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:23:27,942 p=4481 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:23:28,634 p=4481 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:23:29,489 p=4481 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:23:30,582 p=4481 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:23:31,727 p=4481 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:23:32,125 p=4481 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:23:32,730 p=4481 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:23:33,362 p=4481 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:23:34,089 p=4481 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:23:35,039 p=4481 u=rnbass99 n=ansible INFO| playbook: playbook.yml
+2026-10-15 14:24:01,888 p=4566 u=rnbass99 n=ansible WARNING| [WARNING]: Deprecation warnings can be disabled by setting `deprecation_warnings=False` in ansible.cfg.
+
+2026-10-15 14:24:01,889 p=4566 u=rnbass99 n=ansible INFO| [DEPRECATION WARNING]: Importing 'to_text' from 'ansible.module_utils._text' is deprecated. This feature will be removed from ansible-core version 2.24. Use ansible.module_utils.common.text.converters instead.
+
+2026-10-15 14:24:02,063 p=4566 u=rnbass99 n=ansible INFO| [DEPRECATION WARNING]: Importing 'to_native' from 'ansible.module_utils._text' is deprecated. This feature will be removed from ansible-core version 2.24. Use ansible.module_utils.common.text.converters instead.
+
+2026-10-15 14:24:02,132 p=4566 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:24:02,438 p=4566 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:24:03,498 p=4566 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:24:03,894 p=4566 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:24:04,197 p=4566 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:24:04,600 p=4566 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:24:04,977 p=4566 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:24:06,081 p=4566 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:24:07,353 p=4566 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:24:09,032 p=4566 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:24:09,731 p=4566 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:24:10,612 p=4566 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:24:12,800 p=4566 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:24:14,064 p=4566 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:24:14,438 p=4566 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:24:15,068 p=4566 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:24:15,665 p=4566 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:24:16,422 p=4566 u=rnbass99 n=botocore.credentials INFO| Found credentials in shared credentials file: ~/.aws/credentials
+2026-10-15 14:24:17,405 p=4566 u=rnbass99 n=ansible INFO| PLAY [deploy basset aplication] ******************************************************************************************
+2026-10-15 14:24:17,421 p=4566 u=rnbass99 n=ansible WARNING| [WARNING]: Found variable using reserved name 'tags'.
+Origin: <unknown>
+
+tags
+
+
+2026-10-15 14:24:17,480 p=4566 u=rnbass99 n=ansible INFO| TASK [Gathering Facts] ***************************************************************************************************
+2026-10-15 14:24:23,954 p=4566 u=rnbass99 n=ansible WARNING| [WARNING]: Host 'ec2-3-8-141-80.eu-west-2.compute.amazonaws.com' is using the discovered Python interpreter at '/usr/bin/python3.9', but future installation of another Python interpreter could cause a different interpreter to be discovered. See https://docs.ansible.com/ansible-core/2.20/reference_appendices/interpreter_discovery.html for more information.
+
+2026-10-15 14:24:23,955 p=4566 u=rnbass99 n=ansible INFO| ok: [ec2-3-8-141-80.eu-west-2.compute.amazonaws.com]
+2026-10-15 14:24:24,145 p=4566 u=rnbass99 n=ansible INFO| TASK [install httpd] *****************************************************************************************************
+2026-10-15 14:24:49,354 p=4566 u=rnbass99 n=ansible INFO| changed: [ec2-3-8-141-80.eu-west-2.compute.amazonaws.com]
+2026-10-15 14:24:49,575 p=4566 u=rnbass99 n=ansible INFO| TASK [start httpd service] ***********************************************************************************************
+2026-10-15 14:24:52,340 p=4566 u=rnbass99 n=ansible INFO| changed: [ec2-3-8-141-80.eu-west-2.compute.amazonaws.com]
+2026-10-15 14:24:52,726 p=4566 u=rnbass99 n=ansible INFO| TASK [create index.html] *************************************************************************************************
+2026-10-15 14:24:54,044 p=4566 u=rnbass99 n=ansible INFO| changed: [ec2-3-8-141-80.eu-west-2.compute.amazonaws.com]
+2026-10-15 14:24:54,061 p=4566 u=rnbass99 n=ansible INFO| TASK [deploy application] ************************************************************************************************
+2026-10-15 14:24:55,067 p=4566 u=rnbass99 n=ansible INFO| changed: [ec2-3-8-141-80.eu-west-2.compute.amazonaws.com]
+2026-10-15 14:24:55,074 p=4566 u=rnbass99 n=ansible INFO| PLAY RECAP ***************************************************************************************************************
+2026-10-15 14:24:55,075 p=4566 u=rnbass99 n=ansible INFO| ec2-3-8-141-80.eu-west-2.compute.amazonaws.com : ok=5    changed=4    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
